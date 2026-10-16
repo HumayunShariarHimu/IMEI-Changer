@@ -1,4 +1,3 @@
-```markdown
 # 📱 মোবাইল ফোনের আইএমইআই পরিচয় ও পরিবর্তনের সম্পূর্ণ গাইড
 
 > **সর্বশেষ হালনাগাদ:** ২০ আগস্ট ২০২৬  
@@ -109,24 +108,23 @@ AT+GSN
 
 ৬. ফরেনসিক এক্সট্রাকশন
 
-· লজিক্যাল এক্সট্রাকশন: ডিভাইসের সিস্টেম ইনফরমেশন থেকে আইএমইআই সংগ্রহ
-· ফিজিক্যাল এক্সট্রাকশন: JTAG বা Chip-off ফরেনসিকের মাধ্যমে হার্ডওয়্যার থেকে আইএমইআই এক্সট্র্যাক্ট
+- লজিক্যাল এক্সট্রাকশন: ডিভাইসের সিস্টেম ইনফরমেশন থেকে আইএমইআই সংগ্রহ
+- ফিজিক্যাল এক্সট্রাকশন: JTAG বা Chip-off ফরেনসিকের মাধ্যমে হার্ডওয়্যার থেকে আইএমইআই এক্সট্র্যাক্ট
 
 ---
 
-🛠️ সফটওয়্যার ও টুলস
-
+## 🛠️ সফটওয়্যার ও টুলস
 ১. IMEI-Find
 
 https://img.shields.io/github/stars/D3crypT0r/IMEI-Find
 
-· বিবরণ: ADB ব্যবহার করে Android ডিভাইসের ফাইল সিস্টেমে IMEI অনুসন্ধানের জন্য GUI-ভিত্তিক টুল
-· বৈশিষ্ট্য:
+- বিবরণ: ADB ব্যবহার করে Android ডিভাইসের ফাইল সিস্টেমে IMEI অনুসন্ধানের জন্য GUI-ভিত্তিক টুল
+- বৈশিষ্ট্য:
   · নির্দিষ্ট টার্ম (যেমন: IMEI, getImei) অনুসন্ধান
   · মাউন্টেড পার্টিশন প্রদর্শন
   · JSON ফরম্যাটে রেজাল্ট এক্সপোর্ট
-· প্রয়োজনীয়তা: Python 3.x, ADB, PyQt5
-· ইনস্টলেশন:
+- প্রয়োজনীয়তা: Python 3.x, ADB, PyQt5
+- ইনস্টলেশন:
 
 ```bash
 git clone https://github.com/D3crypT0r/IMEI-Find.git
@@ -135,54 +133,54 @@ pip install PyQt5 pyqt5-tools
 python3 IMEI-Find.py
 ```
 
-· লাইসেন্স: Open Source
+- লাইসেন্স: Open Source
 
 ২. IMEI_Lookup
 
 https://img.shields.io/github/stars/itsKayWat/IMEI_Lookup
 
-· বিবরণ: PIN অথেন্টিকেশন, পেইড/ফ্রি ডিভাইস চেক এবং IMEI ক্যালকুলেটর সম্বলিত আধুনিক IMEI লুকআপ টুল
-· বৈশিষ্ট্য: রেসপন্সিভ UI, সাউন্ড ইফেক্ট, মাল্টি-ইউজার সাপোর্ট
-· নির্মিত: Vanilla JS/CSS
-· লাইসেন্স: MIT
+- বিবরণ: PIN অথেন্টিকেশন, পেইড/ফ্রি ডিভাইস চেক এবং IMEI ক্যালকুলেটর সম্বলিত আধুনিক IMEI লুকআপ টুল
+- বৈশিষ্ট্য: রেসপন্সিভ UI, সাউন্ড ইফেক্ট, মাল্টি-ইউজার সাপোর্ট
+- নির্মিত: Vanilla JS/CSS
+- লাইসেন্স: MIT
 
 ৩. IMEI Validator
 
 https://img.shields.io/github/stars/JonnyBytesMe/imei-validator
 
-· বিবরণ: IMEI নম্বর ভ্যালিডেশন ও অ্যানালাইসিসের জন্য Python টুল
-· বৈশিষ্ট্য:
+- বিবরণ: IMEI নম্বর ভ্যালিডেশন ও অ্যানালাইসিসের জন্য Python টুল
+- বৈশিষ্ট্য:
   · Luhn অ্যালগরিদম ভ্যালিডেশন
   · TAC ডেটাবেস লুকআপ
   · RBI কোড অ্যানালাইসিস
   · ব্যাচ প্রসেসিং
-· ব্যবহার:
+- ব্যবহার:
 
 ```bash
 python imei_validator.py --imei 357561856136304
 python imei_validator.py --batch input_imeis.txt
 ```
 
-· প্রয়োজনীয়তা: Python 3.7+
+- প্রয়োজনীয়তা: Python 3.7+
 
 ৪. IMEI Scraper & Validation Tool
 
 https://img.shields.io/github/stars/altheasignals/imei_scrape
 
-· বিবরণ: হাই-পারফরম্যান্স Python অ্যাপ্লিকেশন যা IMEI সংগ্রহ, ম্যানেজ ও ভ্যালিডেট করে
-· বৈশিষ্ট্য:
+- বিবরণ: হাই-পারফরম্যান্স Python অ্যাপ্লিকেশন যা IMEI সংগ্রহ, ম্যানেজ ও ভ্যালিডেট করে
+- বৈশিষ্ট্য:
   · হাই-পারফরম্যান্স স্ক্র্যাপিং
   · ক্যারিয়ার কম্প্যাটিবিলিটি ভেরিফিকেশন
   · CSV-ভিত্তিক ডেটাবেস ম্যানেজমেন্ট
   · ব্ল্যাকলিস্ট ম্যানেজমেন্ট
-· ইনস্টলেশন:
+- ইনস্টলেশন:
 
 ```bash
 pip install -r requirements-v1.txt
 python -m playwright install chromium
 ```
 
-· ব্যবহার:
+- ব্যবহার:
 
 ```bash
 python src/imei_manager.py scrape --count 50 --brand Samsung
@@ -193,28 +191,28 @@ python src/imei_manager.py validate --imei 351138316163206
 
 https://img.shields.io/github/stars/IMEI-Atlas/IMEI-Atlas
 
-· বিবরণ: IMEI জেনারেটর ও ভ্যালিডেটর টুল। MikroTik ও FiberHome রাউটারের AT কমান্ড সাপোর্ট করে
-· বৈশিষ্ট্য:
+- বিবরণ: IMEI জেনারেটর ও ভ্যালিডেটর টুল। MikroTik ও FiberHome রাউটারের AT কমান্ড সাপোর্ট করে
+- বৈশিষ্ট্য:
   · Luhn অ্যালগরিদম ব্যবহার করে IMEI জেনারেট
   · জনপ্রিয় ডিভাইসের জন্য TAC ডেটাবেস
   · বাল্ক জেনারেশন
   · AT কমান্ড জেনারেশন
-· লাইসেন্স: GNU GPL v3.0
+- লাইসেন্স: GNU GPL v3.0
 
 ৬. MTK IMEI Patcher
 
 https://img.shields.io/github/stars/timjosten/mtk_imei
 
-· বিবরণ: Xiaomi Helio G সিরিজের ফোনের জন্য NVRAM পার্টিশন পুনঃনির্মাণের স্ক্রিপ্ট
-· বৈশিষ্ট্য: TWRP-ফ্ল্যাশেবল ফাইল তৈরি
+- বিবরণ: Xiaomi Helio G সিরিজের ফোনের জন্য NVRAM পার্টিশন পুনঃনির্মাণের স্ক্রিপ্ট
+- বৈশিষ্ট্য: TWRP-ফ্ল্যাশেবল ফাইল তৈরি
 
 ৭. IMEI Changer (MTK)
 
 https://img.shields.io/github/stars/alecsx/imei-changer-mtk
 
-· বিবরণ: MediaTek ডিভাইসের জন্য IMEI পরিবর্তন টুল (কমান্ড লাইন)
-· ইনস্টলেশন: pip install imei-changer-mtk
-· ব্যবহার:
+- বিবরণ: MediaTek ডিভাইসের জন্য IMEI পরিবর্তন টুল (কমান্ড লাইন)
+- ইনস্টলেশন: pip install imei-changer-mtk
+- ব্যবহার:
 
 ```bash
 imei-changer --imei1 357561856136304 --imei2 357561856136305
@@ -224,14 +222,13 @@ imei-changer --imei1 357561856136304 --imei2 357561856136305
 
 https://img.shields.io/github/stars/tomsawyer777/IMEI-Change
 
-· বিবরণ: Android ফোনের IMEI পরিবর্তনের সহজ টুল (রুট প্রয়োজন)
-· বৈশিষ্ট্য: ব্যাকআপ/রিস্টোর, ডুয়াল সিম সাপোর্ট
-· প্রয়োজনীয়তা: রুট অ্যাক্সেস, ADB
+- বিবরণ: Android ফোনের IMEI পরিবর্তনের সহজ টুল (রুট প্রয়োজন)
+- বৈশিষ্ট্য: ব্যাকআপ/রিস্টোর, ডুয়াল সিম সাপোর্ট
+- প্রয়োজনীয়তা: রুট অ্যাক্সেস, ADB
 
 ---
 
-💻 কোড ও স্ক্রিপ্ট
-
+## 💻 কোড ও স্ক্রিপ্ট
 ১. Luhn অ্যালগরিদম (Python)
 
 ```python
@@ -443,18 +440,17 @@ if info:
 
 ---
 
-📱 মোবাইল অ্যাপ
-
+## 📱 মোবাইল অ্যাপ
 ১. Flutter Device IMEI Plugin
 
 https://img.shields.io/github/stars/pranilshah4024/flutter_device_imei
 
-· বিবরণ: Android ও iOS-এ ডিভাইস আইডি সংগ্রহের জন্য Flutter প্লাগইন
-· বৈশিষ্ট্য:
+- বিবরণ: Android ও iOS-এ ডিভাইস আইডি সংগ্রহের জন্য Flutter প্লাগইন
+- বৈশিষ্ট্য:
   · Android 10-এর নিচে: IMEI রিটার্ন করে
   · Android 10+: ANDROID_ID রিটার্ন করে
   · iOS: UUID রিটার্ন করে
-· ব্যবহার:
+- ব্যবহার:
 
 ```dart
 import 'package:flutter_device_imei/flutter_device_imei.dart';
@@ -465,9 +461,9 @@ String imei = await FlutterDeviceImei.instance.getIMEI();
 
 https://img.shields.io/github/stars/nqhhdev/imei_plugin
 
-· বিবরণ: Flutter-এ Android ও iOS-এর জন্য IMEI সংগ্রহের প্লাগইন
-· বৈশিষ্ট্য: ডুয়াল/ট্রিপল সিম সাপোর্ট
-· ব্যবহার:
+- বিবরণ: Flutter-এ Android ও iOS-এর জন্য IMEI সংগ্রহের প্লাগইন
+- বৈশিষ্ট্য: ডুয়াল/ট্রিপল সিম সাপোর্ট
+- ব্যবহার:
 
 ```dart
 String imei = await ImeiPlugin.getImei();
@@ -478,42 +474,41 @@ List<String> multiImei = await ImeiPlugin.getImeiMulti();
 
 https://img.shields.io/github/stars/flipphoneguy/mtk-imei-switcheroo-app
 
-· বিবরণ: রুটেড MediaTek MT67xx ফোনে IMEI, Bluetooth MAC ও WiFi MAC রিড ও রিরাইট করার অ্যাপ
-· বৈশিষ্ট্য: IMEI জেনারেট, MAC র‍্যান্ডোমাইজ, লাস্ট ৫ ভ্যালু সেভ
-· প্রয়োজনীয়তা: রুট (Magisk)
+- বিবরণ: রুটেড MediaTek MT67xx ফোনে IMEI, Bluetooth MAC ও WiFi MAC রিড ও রিরাইট করার অ্যাপ
+- বৈশিষ্ট্য: IMEI জেনারেট, MAC র‍্যান্ডোমাইজ, লাস্ট ৫ ভ্যালু সেভ
+- প্রয়োজনীয়তা: রুট (Magisk)
 
 ৪. Device Info (Android)
 
 https://img.shields.io/badge/GitHub-opt05/deviceid-blue
 
-· বিবরণ: ওপেন সোর্স Android অ্যাপ যা IMEI/MEID, ডিভাইস মডেল, Android ID, Wi-Fi MAC, Bluetooth MAC ইত্যাদি প্রদর্শন করে
-· প্লে স্টোরে উপলব্ধ
+- বিবরণ: ওপেন সোর্স Android অ্যাপ যা IMEI/MEID, ডিভাইস মডেল, Android ID, Wi-Fi MAC, Bluetooth MAC ইত্যাদি প্রদর্শন করে
+- প্লে স্টোরে উপলব্ধ
 
 ৫. SimInfo
 
 https://img.shields.io/github/stars/tech1ee/SimInfo
 
-· বিবরণ: সিম কার্ডের তথ্য, নেটওয়ার্ক কানেক্টিভিটি ও ক্যারিয়ার সার্ভিস সম্পর্কে বিস্তারিত তথ্য প্রদানকারী Android অ্যাপ
-· বৈশিষ্ট্য: IMEI, Android ID, ICCID প্রদর্শন
+- বিবরণ: সিম কার্ডের তথ্য, নেটওয়ার্ক কানেক্টিভিটি ও ক্যারিয়ার সার্ভিস সম্পর্কে বিস্তারিত তথ্য প্রদানকারী Android অ্যাপ
+- বৈশিষ্ট্য: IMEI, Android ID, ICCID প্রদর্শন
 
 ৬. IMEI Analyzer (React Native)
 
 https://img.shields.io/github/stars/mahmoudabdelmomen/imei-analyzer
 
-· বিবরণ: React Native-এ নির্মিত IMEI অ্যানালাইসিস অ্যাপ
-· বৈশিষ্ট্য: IMEI ভ্যালিডেশন, ডিভাইস তথ্য, ব্ল্যাকলিস্ট চেক
+- বিবরণ: React Native-এ নির্মিত IMEI অ্যানালাইসিস অ্যাপ
+- বৈশিষ্ট্য: IMEI ভ্যালিডেশন, ডিভাইস তথ্য, ব্ল্যাকলিস্ট চেক
 
 ---
 
-🌐 API ও ওয়েব সার্ভিস
-
+## 🌐 API ও ওয়েব সার্ভিস
 ১. IMEI.info API
 
 https://img.shields.io/github/stars/imei-info/imei-check-api-node
 
-· বিবরণ: IMEI ব্যবহার করে মোবাইল ডিভাইসের তথ্য সংগ্রহের API
-· Node.js ক্লায়েন্ট: npm install imei-info
-· ব্যবহার:
+- বিবরণ: IMEI ব্যবহার করে মোবাইল ডিভাইসের তথ্য সংগ্রহের API
+- Node.js ক্লায়েন্ট: npm install imei-info
+- ব্যবহার:
 
 ```javascript
 const IMEI = require('imei-info');
@@ -525,9 +520,9 @@ const info = await client.check('357561856136304');
 
 https://img.shields.io/github/stars/iurkinvalentin/IMEI_checker
 
-· বিবরণ: Django-ভিত্তিক REST API যা বাহ্যিক API-এর মাধ্যমে IMEI চেক করে
-· এন্ডপয়েন্ট: /api/v1/check-imei/
-· ইনস্টলেশন:
+- বিবরণ: Django-ভিত্তিক REST API যা বাহ্যিক API-এর মাধ্যমে IMEI চেক করে
+- এন্ডপয়েন্ট: /api/v1/check-imei/
+- ইনস্টলেশন:
 
 ```bash
 git clone https://github.com/iurkinvalentin/IMEI_checker
@@ -539,9 +534,9 @@ python manage.py runserver
 
 https://img.shields.io/github/stars/hopla/ifreeicloud
 
-· বিবরণ: IMEI / iCloud / ক্যারিয়ার চেকের জন্য TypeScript ক্লায়েন্ট
-· ইনস্টলেশন: npm install @hopla/ifreeicloud
-· ব্যবহার:
+- বিবরণ: IMEI / iCloud / ক্যারিয়ার চেকের জন্য TypeScript ক্লায়েন্ট
+- ইনস্টলেশন: npm install @hopla/ifreeicloud
+- ব্যবহার:
 
 ```typescript
 import { iFreeiCloud } from '@hopla/ifreeicloud';
@@ -553,8 +548,8 @@ const result = await client.checkImei('357561856136304');
 
 https://img.shields.io/github/stars/KilimcininKorOglu/edevlet-imei-check
 
-· বিবরণ: তুরস্কের e-Devlet পোর্টালে IMEI রেজিস্ট্রেশন স্ট্যাটাস চেকের জন্য Go লাইব্রেরি
-· ব্যবহার:
+- বিবরণ: তুরস্কের e-Devlet পোর্টালে IMEI রেজিস্ট্রেশন স্ট্যাটাস চেকের জন্য Go লাইব্রেরি
+- ব্যবহার:
 
 ```go
 import "github.com/KilimcininKorOglu/edevlet-imei-check"
@@ -565,24 +560,23 @@ status := imei.Check("357561856136304")
 
 https://img.shields.io/github/stars/OpenIMEI/opendb
 
-· বিবরণ: ওপেন সোর্স IMEI ডেটাবেস API
-· বৈশিষ্ট্য: ফ্রি, TAC ডেটাবেস, ডিভাইস তথ্য
-· API: https://api.openimei.com/v1/lookup/{imei}
+- বিবরণ: ওপেন সোর্স IMEI ডেটাবেস API
+- বৈশিষ্ট্য: ফ্রি, TAC ডেটাবেস, ডিভাইস তথ্য
+- API: https://api.openimei.com/v1/lookup/{imei}
 
 ---
 
-🔬 ফরেনসিক টেকনিক
-
+## 🔬 ফরেনসিক টেকনিক
 ১. লজিক্যাল এক্সট্রাকশন
 
 মোবাইল ফরেনসিক টুলস ব্যবহার করে ডিভাইসের সেটিংস বা সিস্টেম ইনফরমেশন থেকে IMEI সংগ্রহ
 
 উদাহরণ টুলস:
 
-· Cellebrite UFED
-· Oxygen Forensics
-· Andriller
-· Autopsy (Android अॅक्सेसरी)
+- Cellebrite UFED
+- Oxygen Forensics
+- Andriller
+- Autopsy (Android अॅक्सेसरी)
 
 ২. ফিজিক্যাল এক্সট্রাকশন
 
@@ -590,25 +584,25 @@ https://img.shields.io/github/stars/OpenIMEI/opendb
 
 প্রয়োজনীয় সরঞ্জাম:
 
-· JTAG ইন্টারফেস (Raspberry Pi + OpenOCD)
-· Chip-off স্টেশন (Hot Air Rework)
-· EMMC প্রোগ্রামার (EasyJTAG, Octoplus)
+- JTAG ইন্টারফেস (Raspberry Pi + OpenOCD)
+- Chip-off স্টেশন (Hot Air Rework)
+- EMMC প্রোগ্রামার (EasyJTAG, Octoplus)
 
 ৩. MTK NVRAM রিভার্স ইঞ্জিনিয়ারিং
 
 MediaTek ডিভাইসের IMEI এনক্রিপশন ফরম্যাট রিভার্স ইঞ্জিনিয়ারিং
 
-· ফাইল লোকেশন: /mnt/vendor/nvdata/md/NVRAM/NVD_IMEI/LD0B_001
-· এনক্রিপশন: AES-128-ECB + MD5-XOR checksum
-· ডিক্রিপশন টুল: mtk-imei-decrypt
+- ফাইল লোকেশন: /mnt/vendor/nvdata/md/NVRAM/NVD_IMEI/LD0B_001
+- এনক্রিপশন: AES-128-ECB + MD5-XOR checksum
+- ডিক্রিপশন টুল: mtk-imei-decrypt
 
 ৪. pyAndriller
 
 https://img.shields.io/github/stars/vicgc/pyAndriller
 
-· বিবরণ: রুটেড Android ডিভাইস থেকে রিড-অনলি, ফরেনসিকভাবে সাউন্ড ডেটা এক্সট্রাকশন টুল
-· বৈশিষ্ট্য: IMEI, ডিভাইস তথ্য, ইনস্টলড অ্যাপ, SMS, কল লগ
-· ব্যবহার:
+- বিবরণ: রুটেড Android ডিভাইস থেকে রিড-অনলি, ফরেনসিকভাবে সাউন্ড ডেটা এক্সট্রাকশন টুল
+- বৈশিষ্ট্য: IMEI, ডিভাইস তথ্য, ইনস্টলড অ্যাপ, SMS, কল লগ
+- ব্যবহার:
 
 ```bash
 python pyandriller.py --target /dev/block/mmcblk0
@@ -618,9 +612,9 @@ python pyandriller.py --target /dev/block/mmcblk0
 
 https://img.shields.io/github/stars/fsinnes/Mobile-Diagnostics-Research
 
-· বিবরণ: মোবাইল ডিভাইস শনাক্তকরণ ও ডায়াগনোসিস গবেষণার জন্য রিপোজিটরি
-· AT কমান্ড: AT+IMEINUM, shell cat /csa/imei/serialno.dat
-· উইন্ডোজ টুল: adb shell wmic path Win32_BaseBoard get SerialNumber
+- বিবরণ: মোবাইল ডিভাইস শনাক্তকরণ ও ডায়াগনোসিস গবেষণার জন্য রিপোজিটরি
+- AT কমান্ড: AT+IMEINUM, shell cat /csa/imei/serialno.dat
+- উইন্ডোজ টুল: adb shell wmic path Win32_BaseBoard get SerialNumber
 
 ৬. ফরেনসিক ইমেজিং
 
@@ -650,8 +644,7 @@ dd if=emmc_dump.img of=imei_sector.bin bs=512 count=1 skip=110100
 
 ---
 
-📦 গিটহাব রিপোজিটরি লিস্ট (সম্পূর্ণ)
-
+## 📦 গিটহাব রিপোজিটরি লিস্ট (সম্পূর্ণ)
 # রিপোজিটরি বিবরণ ভাষা লাইসেন্স ⭐
 1 D3crypT0r/IMEI-Find ADB-ভিত্তিক IMEI ফাইন্ডার Python - 15
 2 itsKayWat/IMEI_Lookup IMEI লুকআপ টুল HTML/CSS/JS MIT 20
@@ -681,8 +674,7 @@ dd if=emmc_dump.img of=imei_sector.bin bs=512 count=1 skip=110100
 
 ---
 
-📚 সম্পদ ও রেফারেন্স
-
+## 📚 সম্পদ ও রেফারেন্স
 অনলাইন টুলস
 
 টুল URL বিবরণ
@@ -695,9 +687,9 @@ IMEIData https://imeidata.net ডিভাইস বিস্তারিত
 
 অফিসিয়াল ভেরিফিকেশন
 
-· ভারত: CEIR (Central Equipment Identity Register) - KYM<15 ডিজিট IMEI> SMS পাঠান 14422-এ
-· GSMA TAC Database - অফিসিয়াল TAC তথ্য
-· EU IMEI Database - ইউরোপিয়ান ইউনিয়নের অফিসিয়াল ডেটাবেস
+- ভারত: CEIR (Central Equipment Identity Register) - KYM<15 ডিজিট IMEI> SMS পাঠান 14422-এ
+- GSMA TAC Database - অফিসিয়াল TAC তথ্য
+- EU IMEI Database - ইউরোপিয়ান ইউনিয়নের অফিসিয়াল ডেটাবেস
 
 ফরেনসিক টুলস
 
@@ -710,20 +702,19 @@ Magnet AXIOM ডিজিটাল ফরেনসিক পেইড
 
 ডকুমেন্টেশন
 
-· MTK IMEI ফরম্যাট: docs/format.md
-· রিভার্স ইঞ্জিনিয়ারিং: docs/reverse_engineering.md
-· GSMA TAC Assignment: Official Document
+- MTK IMEI ফরম্যাট: docs/format.md
+- রিভার্স ইঞ্জিনিয়ারিং: docs/reverse_engineering.md
+- GSMA TAC Assignment: Official Document
 
 বই ও গবেষণাপত্র
 
-· "Mobile Device Forensics" - NIST Special Publication
-· "Android Forensics" - Andrew Hoog
-· "iOS Forensics" - Sean Morrissey
+- "Mobile Device Forensics" - NIST Special Publication
+- "Android Forensics" - Andrew Hoog
+- "iOS Forensics" - Sean Morrissey
 
 ---
 
-🛡️ IMEI পরিবর্তনের পদ্ধতি (শুধুমাত্র শিক্ষামূলক)
-
+## 🛡️ IMEI পরিবর্তনের পদ্ধতি (শুধুমাত্র শিক্ষামূলক)
 সতর্কতা: নিচের পদ্ধতিগুলো শুধুমাত্র শিক্ষামূলক উদ্দেশ্যে। আপনার নিজস্ব ডিভাইসে ব্যবহারের জন্য দায়িত্ব আপনার।
 
 পদ্ধতি ১: MTK Enginnering Mode (MediaTek)
@@ -809,8 +800,7 @@ change_imei("357561856136304", "357561856136305")
 
 ---
 
-⚠️ আইনি সতর্কতা
-
+## ⚠️ আইনি সতর্কতা
 গুরুত্বপূর্ণ: এই ডকুমেন্টেশনটি শুধুমাত্র শিক্ষামূলক ও গবেষণামূলক উদ্দেশ্যে তৈরি করা হয়েছে।
 
 1. অনুমোদন ছাড়া অন্য কারও ডিভাইসের IMEI অ্যাক্সেস বা পরিবর্তন করা অবৈধ এবং শাস্তিযোগ্য অপরাধ
@@ -831,12 +821,11 @@ UK Fraud Act 2006 ১০ বছর কারাদণ্ড
 
 ---
 
-🤝 সহায়তা ও অবদান
-
-· বাগ রিপোর্ট: সংশ্লিষ্ট গিটহাব রিপোজিটরিতে ইস্যু খুলুন
-· কোড কন্ট্রিবিউশন: ফর্ক করে পুল রিকোয়েস্ট পাঠান
-· ডকুমেন্টেশন আপডেট: এই রিডমি ফাইলে কন্ট্রিবিউট করুন
-· টিউটোরিয়াল: নতুন টিউটোরিয়াল জমা দিন
+## 🤝 সহায়তা ও অবদান
+- বাগ রিপোর্ট: সংশ্লিষ্ট গিটহাব রিপোজিটরিতে ইস্যু খুলুন
+- কোড কন্ট্রিবিউশন: ফর্ক করে পুল রিকোয়েস্ট পাঠান
+- ডকুমেন্টেশন আপডেট: এই রিডমি ফাইলে কন্ট্রিবিউট করুন
+- টিউটোরিয়াল: নতুন টিউটোরিয়াল জমা দিন
 
 কন্ট্রিবিউশন গাইডলাইন
 
@@ -848,16 +837,14 @@ UK Fraud Act 2006 ১০ বছর কারাদণ্ড
 
 ---
 
-🙏 ক্রেডিট
-
-· রিপোজিটরি মেইনটেইনার: Humayun Shariar Himu
-· কন্ট্রিবিউটর: সমস্ত ওপেন সোর্স ডেভেলপার যারা এই টুলস তৈরি করেছেন
-· স্পেশাল থ্যাঙ্কস: GSMA, IMEI.info, এবং সকল গবেষক
+## 🙏 ক্রেডিট
+- রিপোজিটরি মেইনটেইনার: Humayun Shariar Himu
+- কন্ট্রিবিউটর: সমস্ত ওপেন সোর্স ডেভেলপার যারা এই টুলস তৈরি করেছেন
+- স্পেশাল থ্যাঙ্কস: GSMA, IMEI.info, এবং সকল গবেষক
 
 ---
 
-📄 লাইসেন্স
-
+## 📄 লাইসেন্স
 এই ডকুমেন্টেশনটি MIT License-এর অধীনে প্রকাশিত। প্রতিটি টুল/সফটওয়্যারের নিজস্ব লাইসেন্স প্রযোজ্য।
 
 ```
@@ -898,8 +885,7 @@ SOFTWARE.
 
 ---
 
-📊 দ্রুত রেফারেন্স টেবিল
-
+## 📊 দ্রুত রেফারেন্স টেবিল
 কাজ পদ্ধতি টুল/কোড
 IMEI দেখুন *#06# ডায়ালার
 IMEI ভ্যালিডেট Luhn Algorithm Python/JS/PHP
