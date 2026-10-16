@@ -1,6 +1,4 @@
-from pathlib import Path
-
-content = r'''# 📱 Complete Guide to Mobile Phone IMEI Identity and Changes
+📱 Complete Guide to Mobile Phone IMEI Identity and Changes
 
 > **Last updated:** August 20, 2026  
 > **Version:** 3.0  
