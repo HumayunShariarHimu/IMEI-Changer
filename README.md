@@ -914,3 +914,19 @@ IMEI ট্র্যাক IMEI-tracker Python/Node.js
 ---
 
 মনে রাখবেন: প্রযুক্তি শুধুমাত্র ভালো কাজের জন্য ব্যবহার করুন। আইন মেনে চলুন এবং অন্যের গোপনীয়তা সম্মান করুন।
+
+
+---
+
+## 🧰 পূর্ণাঙ্গ Web App ও Python Toolkit
+
+এই রিপোজিটরিতে গবেষণা গাইডের পাশাপাশি responsive web app, লোকাল IMEI format/Luhn validator, Python CLI, batch JSON/CSV report, test suite এবং resource catalog যোগ করা হয়েছে। মূল গাইডের লেখা মুছে না দিয়ে আলাদা ফাইল হিসেবে রাখা হয়েছে।
+
+- **প্রজেক্ট ও রান নির্দেশনা:** [`FULL_PROJECT.md`](FULL_PROJECT.md)
+- **Web app:** [`webapp/`](webapp/)
+- **Python validator/CLI/API:** [`imei_research/`](imei_research/)
+- **রিসোর্স ক্যাটালগ:** [`data/resources.json`](data/resources.json)
+- **রিপোজিটরি/লাইসেন্স পর্যালোচনা:** [`docs/repository-review.md`](docs/repository-review.md)
+- **কোড রেসিপি ও টেস্ট:** [`docs/code-recipes.md`](docs/code-recipes.md), [`tests/`](tests/)
+
+> নোট: root `LICENSE` Apache-2.0, কিন্তু এই README-তে MIT লাইসেন্সের লেখা আছে—এটি সমাধান করা প্রয়োজন। তৃতীয় পক্ষের কোড লাইসেন্স যাচাই ছাড়া কপি করা হয়নি। এই প্রকল্প IMEI পরিবর্তন/জেনারেট/ক্লোন বা NVRAM/EFS/পার্টিশনে লেখে না।
