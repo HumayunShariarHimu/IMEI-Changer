@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "imei-research-desk"
+version = "2.0.0"
+description = "Local IMEI format validation and research resources"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+imei-research = "imei_research.cli:main"
+
+[tool.setuptools]
+packages = ["imei_research"]
